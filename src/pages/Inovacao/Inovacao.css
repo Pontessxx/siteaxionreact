@@ -1,0 +1,37 @@
+.homeInov{
+    display: flex;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.95)),url(../../../public/img/backgrond-inova.jpg);
+    background-size: cover;
+    height: 100vh;/* TAMANHO DO BACKGROND */
+    color: var(--font-color-home-text);
+    min-height: 500px;
+    font-family: var(--font-fam);
+}
+.homeInov .max-width{
+    margin: auto;
+}
+
+.homeInov .homeInov-content .text-2{
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+}
+.homeInov .homeInov-content .text-3{/* descrições */
+    font-size: 33px;
+    text-align: center;
+}
+
+.column video {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 947px){
+    .column video {
+        margin: 0;
+        padding: 10px;
+        width: 350px;
+        height: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,14 @@
+/*  sessão footer  */
+footer{
+    background: var(--cor-ter);
+    padding: 20px 23px;
+    color: var(--cor-sec);
+    text-align: center;
+}
+footer span a{
+    color: var(--cor-scrollbar-thumb);
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
