@@ -11,6 +11,7 @@ import Signin from "./pages/Signin";
 import Signup from "./pages/Singup";
 import { AuthProvider } from './contexts/auth';
 import Userpage from './pages/Userpage';
+import Contato from './pages/Contato';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                   <Route path="/diferencial" element={<Layout><Difpages /></Layout>} />
                   <Route path="/selo" element={<Layout><Selo /></Layout>} />
                   <Route exact path="/userpage" element={<Layout><Userpage /></Layout>} />
+                  <Route exact path="/contato" element={<Layout><Contato /></Layout>} />
                   
                  {/*  <Route exact path="/homelogin" element={<Private Item={HomeLogin} />} /> */}
                   <Route path="/singin" element={<Signin />} />

@@ -65,9 +65,7 @@ function Navbar() {
                     <li><Link to="/diferencial" onClick={handleLinkClick}>Diferenciais</Link></li>
                     <li><Link to="/selo" onClick={handleLinkClick}>Selo</Link></li>
                     <li><Link to="/signin" onClick={handleLinkClick}>Login</Link></li>
-                    {/*<li><Link to="/contato">Contato</Link></li>*/}
-                    {/* <li><a href="login.html">Login</a></li> */}
-                    <li><a href="Contato.html">Contato</a></li>
+                    <li><Link to="/contato" onClick={handleLinkClick}>Contato</Link></li>
                     <li><button  onClick={toggleDarkMode} id="theme-button" className="theme-button"> trocar tema </button></li>
                 </ul>
                 <div className="menu-btn" onClick={toggleMenu}>

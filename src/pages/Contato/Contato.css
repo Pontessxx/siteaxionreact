@@ -1,0 +1,150 @@
+
+/* SEcction depois da ft e antes do Sobre*/
+.L{
+    padding: 30vh;
+    background:  linear-gradient(to bottom, var(--back-contact-2), var(--back-contact-1));
+}
+.L .title{
+    font-family: var(--font-fam);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.L .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: var(--cor-subtitle-claro);
+    transform: translateX(-50%);
+}
+.L .title::after{
+    position: absolute;
+    bottom:-12px;
+    left: 50%;
+    font-size: 20px;
+    background: var(--cor-subtitle-claro);
+    color: var(--cor-prix);
+    padding: 5px;
+    transform: translateX(-50%);
+}
+.about, .services, .skills, .teams, .contact, footer{
+    font-family: var(--font-titu);
+}
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*  sessão Contato  */
+.contact .title {
+    color: var(--cor-sec);
+}
+.contact .title::after{
+    content: "Fale conosco";
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content{
+    align-items: flex-start;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+    color: var(--cor-sec);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--cor-sec);
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px
+}
+.contact .contact-content .row .info .head{
+    font-weight: 500;
+    color: var(--cor-sec);
+}
+.contact .contact-content .row .info .sub-title{
+    color: var(--cor-qui);
+}
+.contact .contact-content .row ion-icon{
+    font-size: 25px;
+    color: var(--cor-sec);
+}
+.contact .rigth form .fields{
+    display: flex;
+}
+
+.contact .rigth form .field,
+.contact .rigth form .fields .field{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.contact .rigth form .field input,
+.contact .rigth form .textarea textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--cor-buttun);
+    background-color: var(--cor-input);
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: var(--font-titu);
+}
+.contact .rigth form .name{
+    margin-right: 10px;
+}
+.contact .rigth form .email{
+    margin-left: 10px;
+}
+.contact .rigth form .textarea{
+    width: 100%;
+    height: 80px;
+}
+.contact .rigth form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .rigth form .button{
+    width: 170px;
+    height: 47px;
+}
+.contact .rigth form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--cor-buttun);
+    background: var(--cor-buttun);
+    color: var(--cor-sec);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .rigth form .button button:hover{
+    background: var(--cor-scrollbar-thumb);
+}
