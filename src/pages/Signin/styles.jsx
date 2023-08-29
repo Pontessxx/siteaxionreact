@@ -28,6 +28,11 @@ export const Label = styled.label`
   font-weight: 600;
   color: #676767;
 `;
+export const Labeld = styled.label`
+  font-size: 15px;
+  font-weight: 500;
+  color: #676767;
+`;
 
 export const LabelSignup = styled.label`
   font-size: 16px;

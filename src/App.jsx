@@ -7,18 +7,14 @@ import Problemas from './pages/Problemas';
 import Inovacao from './pages/Inovacao';
 import Difpages from './pages/Difpages';
 import Selo from './pages/Selo';
-import HomeLogin from './pages/HomeLogin'
 import Signin from "./pages/Signin";
 import Signup from "./pages/Singup";
 import { AuthProvider } from './contexts/auth';
+import Userpage from './pages/Userpage';
 
-const Private = ({ Item }) => {
-  const { signed } = useAuth();
 
-  return signed > 0 ? <Item /> : <Signin />;
-};
 function App() {
-  
+
     return (
       <>
         <AuthProvider>
@@ -30,7 +26,7 @@ function App() {
                   <Route path="/inovacao" element={<Layout><Inovacao /></Layout>} />
                   <Route path="/diferencial" element={<Layout><Difpages /></Layout>} />
                   <Route path="/selo" element={<Layout><Selo /></Layout>} />
-                  
+                  <Route exact path="/userpage" element={<Layout><Userpage /></Layout>} />
                   
                  {/*  <Route exact path="/homelogin" element={<Private Item={HomeLogin} />} /> */}
                   <Route path="/singin" element={<Signin />} />

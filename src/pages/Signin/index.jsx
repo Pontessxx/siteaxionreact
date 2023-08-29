@@ -26,12 +26,13 @@ const Signin = () => {
       return;
     }
 
-    navigate("/homelogin");
+    navigate("/userpage");
   };
   
   return (
     <C.Container>
       <C.Label>SISTEMA DE LOGIN</C.Label>
+      <C.Labeld>caso efeituou o registro entre novametne</C.Labeld>
       <C.Content>
         <Input
           type="email"
