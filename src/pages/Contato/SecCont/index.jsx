@@ -1,4 +1,5 @@
 import React from 'react'
+import Grid from '../Grid'
 
 const SecCont = () => {
   return (
@@ -39,8 +40,8 @@ const SecCont = () => {
                     </div>
                 
                     <div className="column rigth">
-                        <div className="text">Mensagem</div>
-                        <form action="#">
+                        <div className="text">imagens</div>
+                        {/* <form action="#">
                             <div className="fields">
                                 <div className="field name">
                                     <input type="text" placeholder="Nome" id="nome"/>
@@ -57,7 +58,8 @@ const SecCont = () => {
                                     <button type="submit">Enviar</button>
                                 </div>
                             </div>
-                        </form>
+                        </form> */}
+                        <Grid/>
                     </div>
                 </div>
             </div>
