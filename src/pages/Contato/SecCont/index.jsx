@@ -1,5 +1,6 @@
 import React from 'react'
 import Grid from '../Grid'
+import ContactForm from '../ContatoForm'
 
 const SecCont = () => {
   return (
@@ -39,26 +40,13 @@ const SecCont = () => {
                         </div>
                     </div>
                 
-                    <div className="column rigth">
+                   {/*  <div className="column rigth">
                         <div className="text">Desenvolvedores</div>
-                        {/* <form action="#">
-                            <div className="fields">
-                                <div className="field name">
-                                    <input type="text" placeholder="Nome" id="nome"/>
-                                </div>
-                                <div className="field email">
-                                    <input type="email" placeholder="Email" id="email"/>
-                                </div>
-                            </div>
-                            <div className="field">
-                                <div className="field textarea">
-                                <textarea  cols="30" rows="10" placeholder="Escrever...." id="mensagem"></textarea>
-                                </div>
-                                <div className="button">
-                                    <button type="submit">Enviar</button>
-                                </div>
-                            </div>
-                        </form> */}
+                        <Grid/>
+                    </div> */}
+                    <ContactForm/>
+                    <div className='desenvolv'>
+                        <div className="text">Desenvolvedores</div>
                         <Grid/>
                     </div>
                 </div>

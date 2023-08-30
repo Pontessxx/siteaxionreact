@@ -93,18 +93,18 @@
     font-size: 25px;
     color: var(--cor-sec);
 }
-.contact .rigth form .fields{
+.contact .rigth  .fields{
     display: flex;
 }
 
-.contact .rigth form .field,
-.contact .rigth form .fields .field{
+.contact .rigth  .field,
+.contact .rigth  .fields .field{
     width: 100%;
     height: 45px;
     margin-bottom: 15px;
 }
-.contact .rigth form .field input,
-.contact .rigth form .textarea textarea{
+.contact .rigth  .field input,
+.contact .rigth  .textarea textarea{
     width: 100%;
     height: 100%;
     border: 1px solid var(--cor-buttun);
@@ -115,25 +115,25 @@
     font-size: 17px;
     font-family: var(--font-titu);
 }
-.contact .rigth form .name{
+.contact .rigth  .name{
     margin-right: 10px;
 }
-.contact .rigth form .email{
+.contact .rigth  .email{
     margin-left: 10px;
 }
-.contact .rigth form .textarea{
+.contact .rigth  .textarea{
     width: 100%;
     height: 80px;
 }
-.contact .rigth form .textarea textarea{
+.contact .rigth  .textarea textarea{
     padding-top: 10px;
     resize: none;
 }
-.contact .rigth form .button{
+.contact .rigth  .button{
     width: 170px;
     height: 47px;
 }
-.contact .rigth form .button button{
+.contact .rigth  .button button{
     width: 100%;
     height: 100%;
     border: 2px solid var(--cor-buttun);
@@ -145,13 +145,13 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.contact .rigth form .button button:hover{
+.contact .rigth  .button button:hover{
     background: var(--cor-scrollbar-thumb);
 }
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -165,3 +165,27 @@
     height: 100%;
     object-fit: cover;
 }
+.desenvolv{
+    height: 0;
+}
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+    .L {
+      padding: 20vh;
+    }
+  
+    .L .title {
+      font-size: 30px;
+    }
+  }
+  
+  /* Restyle para telas maiores que 768px */
+  @media (min-width: 769px) {
+    /* Nenhum estilo extra necessário para telas maiores aqui */
+  }
+  
+  .about, .services, .skills, .teams, .contact, footer {
+      font-family: var(--font-titu);
+  }
+  
