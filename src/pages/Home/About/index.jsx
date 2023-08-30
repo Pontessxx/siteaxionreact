@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import ImageSlider from '../ImageSlider';
 const About = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const About = () => {
                 <div className="about-content">
                     <div className="column left">
                         <div>
-                            <img id="image-car" alt='carrossel de imagens aqui'/>
+                            <ImageSlider/>
                         </div>
                     </div>
                     <div className="column right">
