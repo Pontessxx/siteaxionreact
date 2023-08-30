@@ -150,17 +150,17 @@
 }
 .parent {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0;
-    grid-row-gap: 0;
-    height: 100%; /* Ensure the parent container takes up the full height */
-}
-
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
 .div1 img,
 .div2 img,
 .div3 img,
-.div4 img {
+.div4 img,
+.div5 img,
+.div6 img {
     width: 100%;
     height: 100%;
     object-fit: cover;

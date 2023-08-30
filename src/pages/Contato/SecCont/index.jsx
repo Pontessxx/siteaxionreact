@@ -19,7 +19,7 @@ const SecCont = () => {
                                 <ion-icon name="person-outline"></ion-icon>
                                 <div className="info">
                                     <div className="head">Nome</div>
-                                    <div className="sub-title">Vinheria Agnello</div>
+                                    <div className="sub-title">Axion Green</div>
                                 </div>
                             </div>
                             <div className="row">
@@ -33,14 +33,14 @@ const SecCont = () => {
                                 <ion-icon name="mail-outline"></ion-icon>
                                 <div className="info">
                                     <div className="head">Email</div>
-                                    <div className="sub-title">vinheria.agnello@gmail.com</div>
+                                    <div className="sub-title">axion.green@gmail.com</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 
                     <div className="column rigth">
-                        <div className="text">imagens</div>
+                        <div className="text">Desenvolvedores</div>
                         {/* <form action="#">
                             <div className="fields">
                                 <div className="field name">

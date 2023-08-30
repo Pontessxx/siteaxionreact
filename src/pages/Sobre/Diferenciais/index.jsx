@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Diferenciais = () => {
   return (
@@ -19,7 +20,7 @@ const Diferenciais = () => {
                             <li><p>Sustentabilidade é outro pilar que levamos como um mantra, sempre visando um futuro mais próspero e "verde".</p></li>
                             <li><p>Qualidade: em nossa start-up, prezamos principalmente pela qualidade de nosso produto.</p></li>
                         </ul>
-                        <a href="diferenciais.html">Mais detalhes</a>
+                        <Link to="/diferencial">Mais detalhes</Link>
                     </div>
                 </div>
             </div>
