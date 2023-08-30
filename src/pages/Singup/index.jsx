@@ -71,14 +71,14 @@ const Signup = () => {
     <C.Container>
       <C.Label>SISTEMA DE LOGIN</C.Label>
       <C.Content>
-        {selectedImage && (
+       {/*  {selectedImage && (
           <img
             src={URL.createObjectURL(selectedImage)}
             alt="Preview"
             style={{ maxWidth: '200px' }}
           />
         )}
-        <Input type='file' accept='image/*' onChange={handleFileUpload} />
+        <Input type='file' accept='image/*' onChange={handleFileUpload} /> */}
         <Input
           type="email"
           placeholder="Digite seu E-mail"
